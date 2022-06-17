@@ -12,7 +12,7 @@
     "ddev": "cd dashboard && npm run dev",
     "dbuild": "cd dashboard && npm run build && npm run export",
     "dstart": "cd dashboard && npm run start",
-    "postinstall": "cd dashboard && curl --compressed -o- -L https://yarnpkg.com/install.sh | bash && yarn"
+    "postinstall": "node ./postinstall.js"
   },
   "repository": {
     "type": "git",
